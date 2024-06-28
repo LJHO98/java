@@ -74,6 +74,7 @@ public class ArrayStudy {
 		
 		boolean same = Arrays.equals(A반, B반);
 		System.out.println("A반 B반 배열이 같은가? " + same);
+		
 				
 //		
 //		for(int i=0; i<A반.length; i++) {
