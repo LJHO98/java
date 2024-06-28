@@ -73,9 +73,7 @@ public class ArrayStudy {
 		System.out.println(Arrays.toString(일학년));
 		
 		boolean same = Arrays.equals(A반, B반);
-		System.out.println("A반 B반 배열이 같은가? " + same);
-		
-				
+		System.out.println("A반 B반 배열이 같은가? " + same);	
 //		
 //		for(int i=0; i<A반.length; i++) {
 //			일학년[i] = A반[i];
