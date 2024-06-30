@@ -93,8 +93,9 @@ public class bingo {
 		endCount = end;
 		System.out.println("엔드카운트 : " + endCount);
 		System.out.println();
+		if(endCount==5 || endCount>5) break;
 		
-	}while(endCount != 5);
+	}while(true);
 	
 	System.out.println("빙고끝!");
 	
