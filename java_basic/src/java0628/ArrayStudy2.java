@@ -32,19 +32,19 @@ public class ArrayStudy2 {
 //			}
 //		}
 		
-//		String[] name = new String[] {
-//			"이순신","김유신","장보고","이성계","문익점","정도전",
-//			"최영","양만춘"
-//		};
-//		
-//		String[] 선발대 = new String[4];
-//		
-//		System.arraycopy(name, 3, 선발대, 0, 선발대.length);
-//		for(int i=0; i<선발대.length; i++) {
-//			System.out.println("선발대" + i + " : " + 선발대[i]);
-//		}
-//		
-//		System.out.println(Arrays.toString(선발대));
+		String[] name = new String[] {
+			"이순신","김유신","장보고","이성계","문익점","정도전",
+			"최영","양만춘"
+		};
+		
+		String[] 선발대 = new String[4];
+		
+		System.arraycopy(name, 3, 선발대, 0, 선발대.length);
+		for(int i=0; i<선발대.length; i++) {
+			System.out.println("선발대" + i + " : " + 선발대[i]);
+		}
+		
+		System.out.println(Arrays.toString(선발대));
 		
 //		//객체에는 indexOf가 존재
 //		String word = "i like banana";
@@ -72,27 +72,27 @@ public class ArrayStudy2 {
 //			}
 //		}
 		
-		String[] 카페 = new String[] {
-			"아메리카노 : 2000원","화이트 아메리카노 : 2800원","카페라떼 : 3000원",
-			"돌체라떼 : 3800원","카페모카 : 3800원","수박주스 : 4000원",
-			"써머아이스티 : 2900원","복숭아아이스티 : 2800원","자두아이스티 : 2800원",
-			"유자에이드 : 3500원","레몬에이드 : 3500원","청포도에이드 : 3500원"
-		};
-		System.out.print("메뉴 검색 : ");
-		
-		boolean isDrink = true;
-//		int count = 0;
-		String search = scan.nextLine();
-		for(int i=0; i<카페.length; i++) {
-			if(카페[i].contains(search)) {
-				System.out.println("메뉴와 가격 - " + 카페[i]);
-				isDrink = false;
-//				count++;
-			}else { isDrink = true;}
-		}
-		if(isDrink) {
-			System.out.print("죄송합니다. 준비중입니다.");
-		}
+//		String[] 카페 = new String[] {
+//			"아메리카노 : 2000원","화이트 아메리카노 : 2800원","카페라떼 : 3000원",
+//			"돌체라떼 : 3800원","카페모카 : 3800원","수박주스 : 4000원",
+//			"써머아이스티 : 2900원","복숭아아이스티 : 2800원","자두아이스티 : 2800원",
+//			"유자에이드 : 3500원","레몬에이드 : 3500원","청포도에이드 : 3500원"
+//		};
+//		System.out.print("메뉴 검색 : ");
+//		
+//		boolean isDrink = true;
+////		int count = 0;
+//		String search = scan.nextLine();
+//		for(int i=0; i<카페.length; i++) {
+//			if(카페[i].contains(search)) {
+//				System.out.println("메뉴와 가격 - " + 카페[i]);
+//				isDrink = false;
+////				count++;
+//			}else { isDrink = true;}
+//		}
+//		if(isDrink) {
+//			System.out.print("죄송합니다. 준비중입니다.");
+//		}
 		
 //		if(count == 0) {
 //			System.out.print("죄송합니다. 준비중입니다.");
