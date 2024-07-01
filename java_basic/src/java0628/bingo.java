@@ -47,8 +47,9 @@ public class bingo {
 			end = 0;
 			diag1 = 0;
 			diag2 = 0;
-			
 			check = false;
+			
+			//빙고 출력
 			for(int i=0; i<bingo.length; i++) {
 				 for(int k=0; k<bingo.length; k++) {
 					 System.out.print(bingo[i][k] + "\t");
