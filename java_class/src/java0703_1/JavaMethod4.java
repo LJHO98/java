@@ -20,8 +20,8 @@ public class JavaMethod4 {
 		//국어, 영어, 수학 세 과목의 총점을 구하는 메서드
 		// 세과목의 평균을 구하는 메서드
 		// 총점과 평균을 출력하세요
-		int kor=89, eng=78, math=50;
-		int 총점 = rm.totalScore(kor, eng, math);
+		
+		int 총점 = rm.totalScore();
 		int 평균 = rm.avgScore(총점);
 		System.out.printf("총점 : %d , 평균 : %d", 총점, 평균);
 	}
@@ -29,8 +29,9 @@ public class JavaMethod4 {
 }
 
 class ReturnMth{
-	int totalScore(int k, int e, int m) {
-		int result = k + e + m;
+	int totalScore() {
+		int kor=89, eng=78, math=50;
+		int result = kor + eng + math;
 		return result;
 	}
 	
