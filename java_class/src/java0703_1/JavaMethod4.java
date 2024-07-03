@@ -27,12 +27,23 @@ public class JavaMethod4 {
 	}
 
 }
+/*
+  주사위 게임
+  j형준 과 s석완이가 주사위 게임을 한다.
+  주사위는 하나, 육면이다.
+  주사위의 값이 큰 사람이 이긴다.
+  
+  주사위 값 구하는 메서드 (랜덤으로 주사위 돌리는 메서드, 매개변수 필요 없음, 반환값 필요함)
+  
+  주사위 값 비교하여 누가 이겼는지 출력하는 메서드(형준과 석완이의 주사위 값을 받을 매개변수 필요함, 누가 이겼는지 출력, 반환값 필요없음)
+ */
 
 class ReturnMth{
 	int totalScore() {
 		int kor=89, eng=78, math=50;
 		int result = kor + eng + math;
 		return result;
+		
 	}
 	
 	int avgScore(int total) {
