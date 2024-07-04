@@ -26,9 +26,11 @@ class Game{
 		if(dice1 > dice2) {
 			System.out.printf("%s 주사위 : %d , %s 주사위 : %d\n", name1, dice1, name2, dice2);
 			System.out.printf("승자는 %s입니다!", name1);
-		}else {
+		}else if(dice1 < dice2){
 			System.out.printf("%s 주사위 : %d , %s 주사위 : %d\n", name1, dice1, name2, dice2);
 			System.out.printf("승자는 %s입니다!", name2);
+		}else {
+			System.out.println("무승부");
 		}
 	}
 	
