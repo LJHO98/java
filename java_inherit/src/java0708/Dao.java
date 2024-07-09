@@ -100,4 +100,15 @@ public class Dao {
 		
 	}
 	
+	public void delete(String name) {
+		String sql = "delete from test_member where name='"+name+"'";
+		try {
+			st = conn.createStatement();
+			st.executeUpdate(sql);
+			System.out.println("삭제 완료");
+		}catch(Exception e){
+			System.out.println("삭제 실패");
+		}
+	}
+	
 }

@@ -11,7 +11,7 @@ public class Dbtest {
 		Dao dao = new Dao();
 		Member[] list; //Member클래스 타입 배열 주소를 저장할 참조변수
 		
-		System.out.print("1.입력  2. 출력 : ");
+		System.out.print("1.입력  2. 출력 3. 삭제 : ");
 		int menu = scan.nextInt();
 		
 		switch(menu) {
@@ -39,6 +39,11 @@ public class Dbtest {
 					System.out.println(data);
 				}
 				break;
+			case 3:
+				scan.nextLine();
+				System.out.println("학생 이름 : ");
+				String stdName = scan.nextLine();
+				dao.delete(stdName);
 		}
 	}
 	
