@@ -9,6 +9,7 @@ public class CollectionStudy1 {
 	public static void main(String[] args) {
 		
 		//ArrayList의 데이터타입을 넣어줄 때
+		//기본 데이터타입이 아닌 클래스 타입을 넣어줘야함
 		//Byte - byte
 		//Short - short
 		//Integer - int
