@@ -24,3 +24,4 @@ abstract class Beverage {
 		System.out.println("음료 완성");
 	}
 }
+
