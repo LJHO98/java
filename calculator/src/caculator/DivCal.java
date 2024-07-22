@@ -1,10 +1,10 @@
 package caculator;
 
-public class DivCal extends Caculator{ //³ª´©±â
+public class DivCal extends Caculator{ //ë‚˜ëˆ„ê¸°
 	@Override
 	protected double cal(double num1, double num2) {
 		if(num1==0) {
-			System.out.println("Àß¸øµÈ ¼ıÀÚ ÀÔ·Â");
+			System.out.println("ì˜ëª»ëœ ìˆ«ìì…ë ¥");
 			return 0;
 		}
 		return num1/num2;
