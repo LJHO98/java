@@ -1,6 +1,6 @@
 package caculator;
 
-public class PlusCal extends Caculator{ //´õÇÏ±â, Ãß»óÅ¬·¡½º Caculator¸¦ »ó¼Ó
+public class PlusCal extends Caculator{ //ë”í•˜ê¸°, ì¶”ìƒí´ë˜ìŠ¤ Caculatorë¥¼ ìƒì†
 	@Override
 	protected double cal(double num1, double num2) {
 		return num1+num2;
