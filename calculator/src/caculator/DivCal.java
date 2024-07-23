@@ -9,4 +9,5 @@ public class DivCal extends Caculator{ //³ª´©±â
 		}
 		return num1/num2;
 	}
+	
 }
