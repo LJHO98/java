@@ -8,6 +8,7 @@ public class DivCal extends Caculator{ //³ª´©±â
 			return 0;
 		}
 		
+		
 		return num1/num2;
 	}
 	
