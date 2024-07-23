@@ -7,6 +7,7 @@ public class DivCal extends Caculator{
 			System.out.println("しししし");
 			return 0;
 		}
+		
 		return num1/num2;
 	}
 }
