@@ -7,6 +7,7 @@ public class DivCal extends Caculator{ //나누기
 			System.out.println("잘못된숫자입력");
 			return 0;
 		}
+		
 		return num1/num2;
 	}
 	
