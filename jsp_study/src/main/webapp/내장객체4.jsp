@@ -9,8 +9,13 @@
 	
 	out.println("서블릿 이름 : " + config.getServletName());
 	out.println("서블릿 파라미터 : " + config.getInitParameter("id"));
+	config.getServletContext();
+	
+	String name="김춘추";
 
 %>
+
+<%=name %>
 <!DOCTYPE html>
 <html>
 <head>
