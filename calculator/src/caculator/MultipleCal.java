@@ -1,6 +1,6 @@
 package caculator;
 
-public class MultipleCal extends Caculator{ //°öÇÏ±â
+public class MultipleCal extends Caculator{ //ê³±í•˜ê¸°
 	@Override
 	protected double cal(double num1, double num2) {
 		return num1*num2;
