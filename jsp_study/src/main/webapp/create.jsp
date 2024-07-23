@@ -5,6 +5,12 @@
 
 <%
 	request.setAttribute("name", "장보고");
+	session.setAttribute("age", 34);
+	application.setAttribute("job", "군인");
 %>
 
-request객체 -> name : <%=request.getAttribute("name") %>
+request객체 -> name : <%=request.getAttribute("name") %> <br>
+session객체 -> age : <%=session.getAttribute("age") %> <br>
+application객체 -> job : <%=application.getAttribute("job") %>
+
+<a href="object_check.jsp"> 이동 </a>

@@ -4,7 +4,7 @@ public class DivCal extends Caculator{
 	@Override
 	protected double cal(double num1, double num2) {
 		if(num1==0) {
-			System.out.println("ㅇㅇㅇ");
+			System.out.println("ddd");
 			return 0;
 		}
 		
